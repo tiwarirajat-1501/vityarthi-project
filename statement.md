@@ -1,6 +1,7 @@
 
 
 -->Problem Statement
+
 The Core Issue: Limitations of Absolute Grading
 In traditional academic assessment systems, students are typically evaluated based on Absolute Grading, where grades are assigned according to fixed score thresholds (e.g., >90% is an 'A', <40% is a 'Fail').
 While simple, this approach has significant flaws:
@@ -19,9 +20,13 @@ The primary objective of this project is to develop a computational tool that au
 
 
 -->Objective
+
 The primary objective of this project is to develop a computational tool that automates the relative grading process. This ensures fairness, eliminates subjective bias, and provides a mathematically defensible assessment of student performance regardless of the exam's difficulty level.
 
+
+
 -->Scope of the Project
+
 Statistical Computation: The system is capable of accurately calculating population statistics, specifically the Mean ($\mu$) and Standard Deviation ($\sigma$), for datasets of varying sizes.
 Algorithmic Grading: It implements a Gaussian-based grading logic to assign letter grades (S, A, B, C, D, F) based on calculated Z-scores.
 Edge Case Management: The tool includes robust error handling for mathematical anomalies, such as "Zero Variance" scenarios where all candidates score identical marks.
