@@ -23,7 +23,7 @@ A Relative Grading System (grading on the curve). Addressing the limitations of 
 * **VS Code:** The Integrated Development Environment (IDE) used for writing and debugging the code.
 * **Version Control:** Git
 
-## 🚀 Steps to Install & Run the Project
+## Steps to Install & Run the Project
 Follow these steps to set up the project locally on your machine.
 
 1. Ensure Python is installed in your device
@@ -36,7 +36,7 @@ Follow these steps to set up the project locally on your machine.
 6. The final grade of each student will be calculated
 
 
-## 🧪 Instructions for Testing
+##  Instructions for Testing
 
 To ensure the **Vityarthi Grade Calculator** is functioning correctly, follow these testing procedures.
 
@@ -46,7 +46,7 @@ To ensure the **Vityarthi Grade Calculator** is functioning correctly, follow th
 3.  Run the command: `python main.py`
 4.  Enter the input values as described in the test cases below and compare the output with the expected results.
 
-### ✅ Test Case 1: Standard Distribution (Normal Class)
+## Test Case 1: Standard Distribution (Normal Class)
 This tests if the calculator correctly handles a typical range of scores.
 
 * **Input:**
@@ -59,7 +59,7 @@ This tests if the calculator correctly handles a typical range of scores.
     * **75.0** → Grade **C** (Z = 0.00)
     * **55.0** → Grade **F** (Z ≈ -1.41)
 
-### ⚠️ Test Case 2: Zero Variance (Edge Case)
+## Test Case 2: Zero Variance (Edge Case)
 This verifies that the program does not crash when all students score the same marks (which causes Standard Deviation to be 0).
 
 * **Input:**
@@ -70,7 +70,7 @@ This verifies that the program does not crash when all students score the same m
     * **Standard Deviation:** `0.00`
     * **80.0** → Grade **C** (Default assignment for Z=0)
 
-### 🔍 What to Verify
+## What to Verify
 * Check that the **Mean** matches the average of the numbers entered.
 * Ensure that no runtime errors (like `ZeroDivisionError`) occur during Test Case 2.
 * Verify that higher scores receive 'S' or 'A' grades and lower scores receive 'D' or 'F'.
